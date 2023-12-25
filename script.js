@@ -30,7 +30,7 @@ function fetchAndUpdateMarkers() {
                 var createdAt = new Date(feed.created_at).toLocaleString(); // Convert timestamp to a readable format
 
                 // Set marker color based on field3 value
-                var markerColor = field3 === 1 ? 'green' : 'red';
+                var markerColor = field3 === 1 ? 'red' : 'green';
 
                 // Create a numbered and colored marker
                 var marker = L.marker([latitude, longitude], {

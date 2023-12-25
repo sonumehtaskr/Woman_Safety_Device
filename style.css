@@ -20,6 +20,11 @@ section {
   width: 100%;
 }
 
+p{
+  text-align: justify;
+  margin: 0;
+}
+
 header {
   background-color: #555353;
   color: #fff;
